@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO & Meta Tags -->
+  <title>NEXORA CYBER — Advanced Autonomous Enterprise Cybersecurity</title>
+  <meta name="description" content="Nexora Cyber delivers next-generation cybersecurity architecture, autonomous threat intelligence, cloud posture defense, and enterprise infrastructure security.">
+  <meta name="keywords" content="cybersecurity, zero-trust architecture, cloud security, threat intelligence, enterprise SOC, application security, DDoS mitigation">
+  <meta name="author" content="Nexora Cyber Technologies">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="NEXORA CYBER — Secure Your Digital World">
+  <meta property="og:description" content="Next-generation autonomous cybersecurity engineered for enterprise defense, cloud workloads, and critical infrastructure.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. FIXED GLASS NAVBAR
+       ======================================================================== -->
+  <nav class="navbar" id="mainNavbar" aria-label="Main Navigation">
+    <div class="container nav-container">
+      <!-- Brand Logotype -->
+      <a href="#hero" class="brand-logo" id="brandLogo" aria-label="Nexora Cyber Homepage">
+        <div class="logo-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            <circle cx="12" cy="11" r="3"></circle>
+          </svg>
+        </div>
+        <span>NEXORA <span class="brand-cyber">CYBER</span></span>
+      </a>
+
+      <!-- Desktop Links -->
+      <div class="nav-links" id="desktopNavLinks">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#solutions" class="nav-link">Solutions</a>
+        <a href="#visualization" class="nav-link">Security Matrix</a>
+        <a href="#why-nexora" class="nav-link">Why Nexora</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#industries" class="nav-link">Industries</a>
+        <a href="#case-studies" class="nav-link">Case Studies</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <!-- Nav CTA Action -->
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm trigger-consultation" id="navGetProtectedBtn">
+          Get Protected
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle Mobile Menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation Menu">
+    <div class="mobile-nav-header">
+      <div class="brand-logo">
+        <div class="logo-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke="currentColor">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+        </div>
+        <span>NEXORA <span class="brand-cyber">CYBER</span></span>
+      </div>
+      <button class="mobile-nav-close" id="mobileMenuClose" aria-label="Close Mobile Menu">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="#hero" class="nav-link">Home</a>
+      <a href="#solutions" class="nav-link">Solutions</a>
+      <a href="#visualization" class="nav-link">Security Matrix</a>
+      <a href="#why-nexora" class="nav-link">Why Nexora</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#industries" class="nav-link">Industries</a>
+      <a href="#case-studies" class="nav-link">Case Studies</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <button class="btn btn-primary trigger-consultation" style="width: 100%;">
+      Get Protected
+    </button>
+  </aside>
+
+  <main>
+    <!-- ========================================================================
+         2. HERO SECTION
+         ======================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Left Hero Copy -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-beacon" aria-hidden="true"></span>
+            SYSTEMS PROTECTED 24/7
+          </div>
+
+          <h1 class="hero-headline">
+            SECURE YOUR <br>
+            <span class="text-gradient">DIGITAL WORLD.</span>
+          </h1>
+
+          <p class="hero-description">
+            Advanced cybersecurity solutions engineered to protect your infrastructure, data, applications, and digital operations from evolving threats. Powered by autonomous threat response and continuous Zero-Trust verification.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#solutions" class="btn btn-primary" id="heroExploreBtn">
+              Explore Security Solutions
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+            <button class="btn btn-secondary trigger-consultation" id="heroConsultBtn">
+              Book a Security Consultation
+            </button>
+          </div>
+
+          <!-- Trust & Performance Metrics -->
+          <div class="hero-trust-metrics">
+            <div class="trust-item">
+              <div class="trust-item-val" data-counter="99.999" data-decimals="3" data-suffix="%">0%</div>
+              <div class="trust-item-lbl">Uptime SLA Reliability</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-item-val" data-counter="0.38" data-decimals="2" data-suffix="ms">0ms</div>
+              <div class="trust-item-lbl">Median Interception Speed</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-item-val" data-counter="4.8" data-decimals="1" data-suffix="Tbps">0Tbps</div>
+              <div class="trust-item-lbl">Mitigation Bandwidth</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Interactive Visualization -->
+        <div class="hero-visual-wrapper" id="heroCanvasContainer" aria-label="Interactive cybersecurity shield and network visualization">
+          <canvas id="heroCyberCanvas" class="hero-canvas"></canvas>
+
+          <!-- Floating SOC Telemetry Panels -->
+          <div class="floating-chip chip-1">
+            <div class="chip-icon-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="chip-content">
+              <span class="chip-title">Zero-Trust Perimeter</span>
+              <span class="chip-sub">100% Policy Enforced</span>
+            </div>
+          </div>
+
+          <div class="floating-chip chip-2">
+            <div class="chip-icon-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+            </div>
+            <div class="chip-content">
+              <span class="chip-title">Threat Quarantined</span>
+              <span class="chip-sub">Heuristic Block: APT-48</span>
+            </div>
+          </div>
+
+          <div class="floating-chip chip-3">
+            <div class="chip-icon-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="chip-content">
+              <span class="chip-title">TLS 1.3 Cryptography</span>
+              <span class="chip-sub">Post-Quantum Active</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. SECURITY STATUS BAR
+         ======================================================================== -->
+    <section class="status-bar-section" aria-label="Real-time SOC Status Bar">
+      <div class="container">
+        <div class="status-bar-wrapper">
+          <!-- Col 1: Threat Status -->
+          <div class="status-col">
+            <span class="status-indicator-dot dot-green" aria-hidden="true"></span>
+            <div class="status-details">
+              <span class="status-label">Threat Status</span>
+              <span class="status-value highlight-green">Protected</span>
+            </div>
+          </div>
+
+          <!-- Col 2: Network -->
+          <div class="status-col">
+            <span class="status-indicator-dot dot-cyan" aria-hidden="true"></span>
+            <div class="status-details">
+              <span class="status-label">Network Infrastructure</span>
+              <span class="status-value">Operational</span>
+            </div>
+          </div>
+
+          <!-- Col 3: Monitoring -->
+          <div class="status-col">
+            <span class="status-indicator-dot dot-blue" aria-hidden="true"></span>
+            <div class="status-details">
+              <span class="status-label">SOC Monitoring</span>
+              <span class="status-value">24 / 7 Active</span>
+            </div>
+          </div>
+
+          <!-- Col 4: Security Score -->
+          <div class="status-col">
+            <span class="status-indicator-dot dot-cyan" aria-hidden="true"></span>
+            <div class="status-details">
+              <span class="status-label">Global Security Posture</span>
+              <span class="status-value highlight-cyan">98.7%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. SERVICES / SOLUTIONS
+         ======================================================================== -->
+    <section class="section" id="solutions">
+      <div class="container">
+        <div class="center-header">
+          <div class="section-tag">Enterprise Defense Portfolio</div>
+          <h2 class="section-title">DEFENSE BUILT FOR THE <span class="text-gradient">DIGITAL AGE.</span></h2>
+          <p class="section-desc">
+            Engineered from first principles to counteract targeted exploits, sophisticated state-sponsored vectors, and zero-day breaches across your entire operational footprint.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Network Security -->
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Network Security</h3>
+              <p class="service-card-desc">
+                Protect critical infrastructure and connected systems with deep packet inspection, micro-segmented zoning, and high-throughput DDoS neutralization.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Autonomous BGP Anycast scrubbing
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Next-Gen Firewall (NGFW) micro-segmentation
+                </li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-card-link">
+              <span>Explore Network Architecture</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Service 2: Cloud Security -->
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Cloud Security</h3>
+              <p class="service-card-desc">
+                Secure multi-cloud environments, container workloads, and sensitive data pipelines with continuous posture management (CSPM) and runtime eBPF defense.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Multi-cloud IAM least-privilege auditing
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Kubernetes runtime behavioral sandboxing
+                </li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-card-link">
+              <span>Explore Cloud Defense</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Service 3: Threat Intelligence -->
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="22" y1="12" x2="18" y2="12"></line>
+                  <line x1="6" y1="12" x2="2" y2="12"></line>
+                  <line x1="12" y1="6" x2="12" y2="2"></line>
+                  <line x1="12" y1="22" x2="12" y2="18"></line>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Threat Intelligence</h3>
+              <p class="service-card-desc">
+                Identify emerging threats and enhance visibility with real-time heuristic telemetry, dark web threat feeds, and proactive adversary attribution.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Global dark-web credential leak monitoring
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Zero-day IOC signature feeds
+                </li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-card-link">
+              <span>Explore Intelligence Feeds</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Service 4: Vulnerability Assessment -->
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Vulnerability Assessment</h3>
+              <p class="service-card-desc">
+                Discover weaknesses before adversaries can exploit them. Continuous automated red-teaming, external surface mapping, and penetration testing.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Continuous dynamic & static code analysis (DAST/SAST)
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Prioritized CVSS exploitability scoring
+                </li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-card-link">
+              <span>Explore Assessment Protocols</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Service 5: Application Security -->
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Application Security</h3>
+              <p class="service-card-desc">
+                Protect modern web applications and API platforms against OWASP Top 10 vulnerabilities, credential stuffing, and botnet scraping.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Next-gen WAF with machine learning heuristics
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  GraphQL & REST API cryptographic shielding
+                </li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-card-link">
+              <span>Explore App Shielding</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Service 6: Security Monitoring -->
+          <div class="service-card">
+            <div>
+              <div class="service-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </div>
+              <h3 class="service-card-title">Security Monitoring</h3>
+              <p class="service-card-desc">
+                Continuous 24/7 visibility into distributed security events, user behaviors, and anomaly clusters with automated SIEM/XDR incident triage.
+              </p>
+              <ul class="service-features-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Sub-second event correlation across cloud & on-prem
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  Automated SOAR playbook remediation
+                </li>
+              </ul>
+            </div>
+            <a href="#contact" class="service-card-link">
+              <span>Explore SOC Telemetry</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. CYBERSECURITY VISUALIZATION ("SEE THE THREAT. STOP THE THREAT.")
+         ======================================================================== -->
+    <section class="section soc-viz-section" id="visualization">
+      <div class="container">
+        <div class="center-header">
+          <div class="section-tag">Interactive Threat Defense Engine</div>
+          <h2 class="section-title">SEE THE THREAT. <span class="text-gradient">STOP THE THREAT.</span></h2>
+          <p class="section-desc">
+            Test Nexora’s defensive perimeter in real time. Simulate incoming adversarial attacks to inspect how the autonomous shield filters, inspects, and neutralizes payloads.
+          </p>
+        </div>
+
+        <div class="soc-viz-container">
+          <!-- Toolbar with Attack Vectors -->
+          <div class="soc-viz-toolbar">
+            <div class="soc-status-badge">
+              <span class="status-indicator-dot dot-cyan"></span>
+              DEFENSE ENGINE: ACTIVE
+            </div>
+
+            <div class="soc-attack-selector">
+              <span>Simulate Attack Vector:</span>
+              <button class="attack-pill-btn active" data-attack="ddos">DDoS SYN Flood</button>
+              <button class="attack-pill-btn" data-attack="sqli">SQL Injection</button>
+              <button class="attack-pill-btn" data-attack="api">API Auth Bypass</button>
+              <button class="attack-pill-btn" data-attack="ransomware">Lateral Probe</button>
+            </div>
+          </div>
+
+          <!-- Interactive Pipeline Flow: Internet -> Security Layer -> Protected Infrastructure -->
+          <div class="pipeline-flow">
+            <!-- Node 1: Public Internet / Threat Vector -->
+            <div class="pipeline-node untrusted">
+              <div class="node-icon-circle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M8 12h8"></path>
+                  <path d="M12 8v8"></path>
+                </svg>
+              </div>
+              <div class="node-title">Public Web & Vectors</div>
+              <div class="node-status">Risk: <strong id="socRiskMetric" style="color: #f43f5e;">CRITICAL</strong></div>
+            </div>
+
+            <!-- Arrow 1 -->
+            <div class="pipeline-arrow">
+              <span class="packet-stream-label">Packet Stream</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </div>
+
+            <!-- Node 2: Nexora AI Security Shield Layer -->
+            <div class="pipeline-node shield-layer">
+              <div class="node-icon-circle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  <polyline points="9 12 11 14 15 10"></polyline>
+                </svg>
+              </div>
+              <div class="node-title">Nexora AI Security Shield</div>
+              <div class="node-status" id="shieldStatusTxt" style="color: var(--cyan); font-weight: 700;">SCRUBBING ACTIVE</div>
+            </div>
+
+            <!-- Arrow 2 -->
+            <div class="pipeline-arrow">
+              <span class="packet-stream-label">Purified Traffic</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </div>
+
+            <!-- Node 3: Hardened Enterprise Perimeter -->
+            <div class="pipeline-node hardened">
+              <div class="node-icon-circle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div class="node-title">Protected Infrastructure</div>
+              <div class="node-status" style="color: #34d399;">100% Zero-Loss Cleansed</div>
+            </div>
+          </div>
+
+          <!-- Live Terminal Event Stream -->
+          <div class="soc-terminal">
+            <div class="soc-terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot red"></span>
+                <span class="terminal-dot yellow"></span>
+                <span class="terminal-dot green"></span>
+              </div>
+              <span>SOC INTERCEPTION LOG STREAM — LIVE TELEMETRY</span>
+              <span id="socThroughputMetric" style="color: var(--cyan);">1,420,890 pkt/s</span>
+            </div>
+            <div class="soc-log-feed" id="socLogFeed" role="log" aria-live="polite">
+              <!-- Logs populated dynamically by js/soc-simulator.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. WHY NEXORA CYBER
+         ======================================================================== -->
+    <section class="section" id="why-nexora">
+      <div class="container">
+        <div class="center-header">
+          <div class="section-tag">Competitive Advantage</div>
+          <h2 class="section-title">SECURITY WITHOUT <span class="text-gradient">COMPROMISE.</span></h2>
+          <p class="section-desc">
+            Traditional security models rely on fragmented appliances and reactive patch cycles. Nexora delivers an integrated autonomous defense fabric designed for unprecedented speed and resilience.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <!-- Item 1 -->
+          <div class="why-card">
+            <div class="why-number">01</div>
+            <h3 class="why-title">Proactive Protection</h3>
+            <p class="why-desc">
+              Heuristic threat forecasting isolates potential infection vectors before malicious payloads execute, eliminating systemic risk at inception.
+            </p>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="why-card">
+            <div class="why-number">02</div>
+            <h3 class="why-title">Intelligent Monitoring</h3>
+            <p class="why-desc">
+              Continuous multi-dimensional event telemetry with autonomous anomaly clustering, replacing alert fatigue with precision forensic insights.
+            </p>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="why-card">
+            <div class="why-number">03</div>
+            <h3 class="why-title">Rapid Response</h3>
+            <p class="why-desc">
+              Sub-second automated containment playbooks isolate infected endpoints and revoke compromised tokens in milliseconds, halting lateral progression.
+            </p>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="why-card">
+            <div class="why-number">04</div>
+            <h3 class="why-title">Scalable Security</h3>
+            <p class="why-desc">
+              Built on globally distributed edge nodes engineered to effortlessly handle multi-terabit volumetric assaults without latency spikes.
+            </p>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="why-card">
+            <div class="why-number">05</div>
+            <h3 class="why-title">Data Protection</h3>
+            <p class="why-desc">
+              Hardware-level post-quantum encryption protecting data in-transit, at-rest, and during in-memory processing against future cryptographic threats.
+            </p>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="why-card">
+            <div class="why-number">06</div>
+            <h3 class="why-title">Enterprise Reliability</h3>
+            <p class="why-desc">
+              Guaranteed 99.999% uptime SLA with active-active regional failover, redundant scrubbing pipelines, and carrier-grade infrastructure resilience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. SECURITY PROCESS
+         ======================================================================== -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="center-header">
+          <div class="section-tag">Methodology & Framework</div>
+          <h2 class="section-title">A SYSTEMATIC DEFENSE <span class="text-gradient">LIFECYCLE.</span></h2>
+          <p class="section-desc">
+            Our structured 4-phase implementation protocol transforms vulnerable enterprise networks into unyielding digital fortresses.
+          </p>
+        </div>
+
+        <div class="process-timeline">
+          <!-- Step 1 -->
+          <div class="process-step">
+            <div class="step-marker">01</div>
+            <h3 class="step-title">DISCOVER</h3>
+            <p class="step-desc">
+              Comprehensive inventory of digital assets, exposed API endpoints, cloud configurations, and shadow IT infrastructure.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step">
+            <div class="step-marker">02</div>
+            <h3 class="step-title">ASSESS</h3>
+            <p class="step-desc">
+              Simulated penetration testing, deep threat modeling, and vulnerability correlation to identify critical exploit paths.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step">
+            <div class="step-marker">03</div>
+            <h3 class="step-title">PROTECT</h3>
+            <p class="step-desc">
+              Deployment of Zero-Trust access gates, edge micro-segmentation, intelligent WAF rules, and cryptographic shields.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="process-step">
+            <div class="step-marker">04</div>
+            <h3 class="step-title">MONITOR</h3>
+            <p class="step-desc">
+              Autonomous 24/7 SIEM/XDR telemetry surveillance, real-time threat hunting, and continuous posture fortification.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         8. INDUSTRIES WE PROTECT
+         ======================================================================== -->
+    <section class="section" id="industries">
+      <div class="container">
+        <div class="center-header">
+          <div class="section-tag">Sector Specialization</div>
+          <h2 class="section-title">TAILORED FOR HIGH-STAKES <span class="text-gradient">ENVIRONMENTS.</span></h2>
+          <p class="section-desc">
+            Custom security policies and compliance frameworks designed specifically for complex regulatory, privacy, and performance requirements.
+          </p>
+        </div>
+
+        <div class="industries-grid">
+          <!-- Ind 1: Financial Services -->
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3 class="industry-title">Financial Services</h3>
+            <p class="industry-desc">High-frequency trading security, PCI-DSS compliance, SWIFT network defense, and fraud prevention.</p>
+          </div>
+
+          <!-- Ind 2: Healthcare -->
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <h3 class="industry-title">Healthcare & Biotech</h3>
+            <p class="industry-desc">HIPAA patient privacy defense, medical IoT protection, and sensitive genomic research shielding.</p>
+          </div>
+
+          <!-- Ind 3: Technology -->
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="industry-title">Technology & SaaS</h3>
+            <p class="industry-desc">Multi-tenant isolation, CI/CD pipeline integrity, API rate limiting, and zero-day protection.</p>
+          </div>
+
+          <!-- Ind 4: E-Commerce -->
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+            </div>
+            <h3 class="industry-title">E-Commerce & Retail</h3>
+            <p class="industry-desc">Botnet mitigation, cart scraping defense, digital skimmer prevention, and flash-sale DDoS protection.</p>
+          </div>
+
+          <!-- Ind 5: Education -->
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <h3 class="industry-title">Higher Education</h3>
+            <p class="industry-desc">Distributed campus Wi-Fi security, research lab data isolation, and credential theft mitigation.</p>
+          </div>
+
+          <!-- Ind 6: Government -->
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <h3 class="industry-title">Public Sector</h3>
+            <p class="industry-desc">Critical infrastructure defense, classified information protection, and sovereign cloud security.</p>
+          </div>
+
+          <!-- Ind 7: Manufacturing -->
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+              </svg>
+            </div>
+            <h3 class="industry-title">Manufacturing & IoT</h3>
+            <p class="industry-desc">SCADA/ICS air-gap telemetry, supply chain verification, and industrial OT network segmentation.</p>
+          </div>
+
+          <!-- Ind 8: Professional Services -->
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="industry-title">Professional Services</h3>
+            <p class="industry-desc">Confidential legal data vaults, encrypted document exchange, and client audit trail attestation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         9. CASE STUDIES (DEMO / PORTFOLIO)
+         ======================================================================== -->
+    <section class="section" id="case-studies">
+      <div class="container">
+        <div class="center-header">
+          <div class="section-tag">Case Studies & Architecture</div>
+          <h2 class="section-title">PROVEN IN HIGH-THREAT <span class="text-gradient">THEATERS.</span></h2>
+          <p class="section-desc">
+            Explore our architectural implementations demonstrating how Nexora neutralizes targeted campaigns and mitigates risk. <em>(Conceptual Portfolio Case Studies)</em>
+          </p>
+        </div>
+
+        <div class="case-studies-grid">
+          <!-- Case 1 -->
+          <article class="case-card">
+            <div class="case-card-header">
+              <span class="case-category">Global Financial Institution</span>
+              <span class="case-badge-demo">Portfolio Project</span>
+            </div>
+            <div class="case-card-body">
+              <h3 class="case-title">Enterprise Network Defense</h3>
+              <p class="case-summary">
+                Modernization of legacy perimeter firewalls into a globally distributed Zero-Trust mesh network with sub-millisecond inspection latency.
+              </p>
+              <div class="case-metrics-row">
+                <div class="metric-item">
+                  <div class="metric-stat">99.999%</div>
+                  <div class="metric-label">Uptime Maintained</div>
+                </div>
+                <div class="metric-item">
+                  <div class="metric-stat">-84%</div>
+                  <div class="metric-label">Attack Surface</div>
+                </div>
+              </div>
+              <button class="case-action-btn trigger-case-study" data-study="enterprise-network">
+                <span>View Full Case Study</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Case 2 -->
+          <article class="case-card">
+            <div class="case-card-header">
+              <span class="case-category">Cloud SaaS Platform</span>
+              <span class="case-badge-demo">Portfolio Project</span>
+            </div>
+            <div class="case-card-body">
+              <h3 class="case-title">Cloud Security Transformation</h3>
+              <p class="case-summary">
+                Multi-cloud CNAPP & Kubernetes runtime protection across 45,000 active containers with real-time IAM drift reconciliation.
+              </p>
+              <div class="case-metrics-row">
+                <div class="metric-item">
+                  <div class="metric-stat">3,400+</div>
+                  <div class="metric-label">Misconfigs Fixed</div>
+                </div>
+                <div class="metric-item">
+                  <div class="metric-stat">0ms</div>
+                  <div class="metric-label">Production Impact</div>
+                </div>
+              </div>
+              <button class="case-action-btn trigger-case-study" data-study="cloud-transformation">
+                <span>View Full Case Study</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Case 3 -->
+          <article class="case-card">
+            <div class="case-card-header">
+              <span class="case-category">Critical Logistics Network</span>
+              <span class="case-badge-demo">Portfolio Project</span>
+            </div>
+            <div class="case-card-body">
+              <h3 class="case-title">Digital Threat Monitoring</h3>
+              <p class="case-summary">
+                Next-Gen SIEM/XDR deployment parsing 2.4M daily events with automated ML triaging, reducing mean-time-to-detect to under 45 seconds.
+              </p>
+              <div class="case-metrics-row">
+                <div class="metric-item">
+                  <div class="metric-stat">&lt; 45s</div>
+                  <div class="metric-label">MTTD Detect Time</div>
+                </div>
+                <div class="metric-item">
+                  <div class="metric-stat">-91%</div>
+                  <div class="metric-label">Alert Fatigue</div>
+                </div>
+              </div>
+              <button class="case-action-btn trigger-case-study" data-study="threat-monitoring">
+                <span>View Full Case Study</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         10. SECURITY DASHBOARD PREVIEW
+         ======================================================================== -->
+    <section class="section" id="dashboard-preview">
+      <div class="container">
+        <div class="center-header">
+          <div class="section-tag">Command & Control Interface</div>
+          <h2 class="section-title">INTELLIGENCE AT A <span class="text-gradient">GLANCE.</span></h2>
+          <p class="section-desc">
+            A centralized single-pane-of-glass operations interface providing complete visibility into enterprise endpoints, egress flows, and threat vectors.
+          </p>
+        </div>
+
+        <div class="dashboard-preview-card">
+          <!-- Header Bar -->
+          <div class="dashboard-header-bar">
+            <div class="dashboard-title-wrap">
+              <span class="status-indicator-dot dot-green"></span>
+              <h3>NEXORA COMMAND CLUSTER #01</h3>
+              <span class="case-badge-demo">SOC Preview</span>
+            </div>
+            <div style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--cyan);">
+              REGION: US-EAST (GLOBAL ANYCAST) • ENCRYPTION: TLS 1.3
+            </div>
+          </div>
+
+          <!-- 3-Column Dashboard Layout -->
+          <div class="dashboard-grid-layout">
+            <!-- Left: Gauges -->
+            <div class="dash-left-panel">
+              <div class="dash-metric-card">
+                <div class="dash-metric-lbl">Posture Score</div>
+                <div class="dash-metric-val cyan">98.7%</div>
+                <div class="dash-progress-track">
+                  <div class="dash-progress-bar bar-cyan"></div>
+                </div>
+              </div>
+
+              <div class="dash-metric-card">
+                <div class="dash-metric-lbl">Active Interceptions</div>
+                <div class="dash-metric-val">42,910</div>
+                <div style="font-size: 0.76rem; color: var(--text-dim); margin-top: 6px;">Past 24 hours (100% neutralized)</div>
+              </div>
+
+              <div class="dash-metric-card">
+                <div class="dash-metric-lbl">Core Cluster Health</div>
+                <div class="dash-metric-val emerald">99.9%</div>
+                <div class="dash-progress-track">
+                  <div class="dash-progress-bar bar-emerald"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Center: Interactive SVG Threat Graph -->
+            <div class="dash-graph-panel">
+              <div class="dash-graph-title-row">
+                <h4>Heuristic Traffic Flow (Mbps vs Threat Interceptions)</h4>
+                <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--cyan);">P99 LATENCY: 0.42ms</span>
+              </div>
+
+              <svg class="dash-svg-chart" viewBox="0 0 600 220" preserveAspectRatio="none">
+                <defs>
+                  <linearGradient id="cyan-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.35"/>
+                    <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.0"/>
+                  </linearGradient>
+                </defs>
+
+                <!-- Grid horizontal lines -->
+                <line x1="0" y1="40" x2="600" y2="40" class="chart-grid-line" />
+                <line x1="0" y1="90" x2="600" y2="90" class="chart-grid-line" />
+                <line x1="0" y1="140" x2="600" y2="140" class="chart-grid-line" />
+                <line x1="0" y1="190" x2="600" y2="190" class="chart-grid-line" />
+
+                <!-- Area Fill -->
+                <path class="chart-area" d="M 0 160 Q 60 140 120 155 T 240 120 T 360 80 T 480 95 T 600 65 L 600 220 L 0 220 Z"></path>
+                <!-- Line -->
+                <path class="chart-line" d="M 0 160 Q 60 140 120 155 T 240 120 T 360 80 T 480 95 T 600 65"></path>
+
+                <!-- Glowing Data Points -->
+                <circle cx="240" cy="120" r="5" fill="#00f0ff" />
+                <circle cx="360" cy="80" r="5" fill="#00f0ff" />
+                <circle cx="600" cy="65" r="5" fill="#00f0ff" />
+              </svg>
+
+              <div style="display: flex; justify-content: space-between; margin-top: 14px; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-dim);">
+                <span>00:00 UTC</span>
+                <span>06:00 UTC</span>
+                <span>12:00 UTC</span>
+                <span>18:00 UTC</span>
+                <span>NOW (LIVE)</span>
+              </div>
+            </div>
+
+            <!-- Right: Threat Vector Distribution -->
+            <div class="dash-right-panel">
+              <h4 style="font-size: 0.95rem; color: var(--text-pure); margin-bottom: 18px;">Threat Vector Breakdown</h4>
+
+              <div class="threat-vector-item">
+                <div class="threat-vector-lbl">
+                  <span>DDoS / Volumetric Flood</span>
+                  <span style="color: var(--cyan); font-family: var(--font-mono);">48%</span>
+                </div>
+                <div class="threat-vector-track">
+                  <div class="vector-fill" style="width: 48%; background: var(--cyan);"></div>
+                </div>
+              </div>
+
+              <div class="threat-vector-item">
+                <div class="threat-vector-lbl">
+                  <span>API Credential Stuffing</span>
+                  <span style="color: #60a5fa; font-family: var(--font-mono);">26%</span>
+                </div>
+                <div class="threat-vector-track">
+                  <div class="vector-fill" style="width: 26%; background: #60a5fa;"></div>
+                </div>
+              </div>
+
+              <div class="threat-vector-item">
+                <div class="threat-vector-lbl">
+                  <span>SQLi & Web App Exploits</span>
+                  <span style="color: #a78bfa; font-family: var(--font-mono);">16%</span>
+                </div>
+                <div class="threat-vector-track">
+                  <div class="vector-fill" style="width: 16%; background: #a78bfa;"></div>
+                </div>
+              </div>
+
+              <div class="threat-vector-item">
+                <div class="threat-vector-lbl">
+                  <span>Zero-Day Protocol Probes</span>
+                  <span style="color: #f43f5e; font-family: var(--font-mono);">10%</span>
+                </div>
+                <div class="threat-vector-track">
+                  <div class="vector-fill" style="width: 10%; background: #f43f5e;"></div>
+                </div>
+              </div>
+
+              <div style="margin-top: 24px; padding: 12px; background: rgba(0, 240, 255, 0.05); border: 1px solid var(--border-light); border-radius: var(--radius-sm); font-size: 0.78rem; color: var(--text-muted);">
+                <strong style="color: var(--cyan);">SOC Advisory:</strong> Zero-Trust session validation updated across all ingress clusters.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         11. TRUST & ENTERPRISE PHILOSOPHY
+         ======================================================================== -->
+    <section class="section" id="trust">
+      <div class="container">
+        <div class="center-header">
+          <div class="section-tag">Enterprise Foundation</div>
+          <h2 class="section-title">BUILT FOR ORGANIZATIONS THAT <br><span class="text-gradient">TAKE SECURITY SERIOUSLY.</span></h2>
+          <p class="section-desc">
+            Engineered around verifiable defensive rigor, operational transparency, and high-availability architecture.
+          </p>
+        </div>
+
+        <div class="trust-badges-grid">
+          <div class="trust-badge-card">
+            <div class="trust-badge-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3 class="trust-badge-title">Enterprise Ready</h3>
+            <p class="trust-badge-desc">Architected for multi-national global compliance and scale.</p>
+          </div>
+
+          <div class="trust-badge-card">
+            <div class="trust-badge-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            </div>
+            <h3 class="trust-badge-title">Privacy Focused</h3>
+            <p class="trust-badge-desc">Zero telemetry logging of confidential user payloads.</p>
+          </div>
+
+          <div class="trust-badge-card">
+            <div class="trust-badge-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <h3 class="trust-badge-title">Security First</h3>
+            <p class="trust-badge-desc">Strict internal zero-trust access policies enforced across all staff.</p>
+          </div>
+
+          <div class="trust-badge-card">
+            <div class="trust-badge-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <h3 class="trust-badge-title">24/7 Monitoring</h3>
+            <p class="trust-badge-desc">Tier-3 security operations center operational 365 days a year.</p>
+          </div>
+
+          <div class="trust-badge-card">
+            <div class="trust-badge-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+            </div>
+            <h3 class="trust-badge-title">Scalable Core</h3>
+            <p class="trust-badge-desc">Dynamic edge capacity that auto-scales under attack surges.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         12. CINEMATIC CTA SECTION
+         ======================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">YOUR SECURITY <br><span class="text-gradient">STARTS HERE.</span></h2>
+          <p class="cta-text">
+            Strengthen your digital infrastructure with a security strategy designed for today's evolving threat landscape. Partner with Nexora Cyber to protect your mission-critical operations.
+          </p>
+          <div class="cta-btn-group">
+            <button class="btn btn-primary trigger-consultation" id="ctaStartAssessmentBtn">
+              Start a Security Assessment
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+            <a href="#contact" class="btn btn-secondary">Talk to Our Team</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         13. CONTACT & CONSULTATION SECTION
+         ======================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="center-header">
+          <div class="section-tag">Direct Engagement</div>
+          <h2 class="section-title">CONNECT WITH <span class="text-gradient">SECURITY SPECIALISTS.</span></h2>
+          <p class="section-desc">
+            Reach out to our security engineers for confidential vulnerability scoping, incident response, or tailored architecture reviews.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Direct Info -->
+          <div class="contact-info-panel">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <h3 class="contact-card-title">Emergency Incident Response</h3>
+                <p class="contact-card-desc">Active breach assistance with 15-minute guaranteed SLA.<br><strong style="color: var(--cyan); font-family: var(--font-mono);">+1 (800) 555-CYBER</strong></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <h3 class="contact-card-title">Security Inquiries & Audits</h3>
+                <p class="contact-card-desc">Direct line to our solutions architecture engineering group.<br><strong style="color: var(--cyan); font-family: var(--font-mono);">sec-ops@nexoracyber.io</strong></p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <h3 class="contact-card-title">Global Headquarters</h3>
+                <p class="contact-card-desc">Nexora Cyber Tower, Financial Center Blvd<br>San Francisco, CA & Zurich, Switzerland</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="contactName">Full Name *</label>
+                  <input type="text" id="contactName" name="name" class="form-input" placeholder="e.g. Alex Morgan" required>
+                  <span class="form-error-msg">Please enter your full name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="contactEmail">Business Email *</label>
+                  <input type="email" id="contactEmail" name="email" class="form-input" placeholder="alex@company.com" required>
+                  <span class="form-error-msg">Please enter a valid business email.</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="contactCompany">Company / Organization</label>
+                  <input type="text" id="contactCompany" name="company" class="form-input" placeholder="Enterprise Inc.">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="contactService">Service Needed *</label>
+                  <select id="contactService" name="service" class="form-select" required>
+                    <option value="">Select a security solution...</option>
+                    <option value="network">Network Security & DDoS Defense</option>
+                    <option value="cloud">Cloud Security Posture (CSPM/CWPP)</option>
+                    <option value="threat">Threat Intelligence & Attribution</option>
+                    <option value="vuln">Vulnerability Assessment & Red-Teaming</option>
+                    <option value="app">Application Security & WAF</option>
+                    <option value="monitoring">24/7 Managed SOC / SIEM</option>
+                  </select>
+                  <span class="form-error-msg">Please choose a security solution.</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactMessage">Infrastructure & Threat Context *</label>
+                <textarea id="contactMessage" name="message" class="form-textarea" placeholder="Describe your technical environment, current challenges, or required timeline..." required></textarea>
+                <span class="form-error-msg">Please provide at least a brief description (min 5 characters).</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;" id="contactSubmitBtn">
+                Request Consultation
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       14. FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="#hero" class="brand-logo">
+            <div class="logo-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke="currentColor">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <span>NEXORA <span class="brand-cyber">CYBER</span></span>
+          </a>
+          <p class="footer-brand-desc">
+            Advanced autonomous cybersecurity engineering for critical infrastructure, hyper-scale cloud environments, and modern digital enterprises.
+          </p>
+          <div class="footer-social-links">
+            <a href="#contact" class="social-btn" aria-label="Nexora GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="#contact" class="social-btn" aria-label="Nexora LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="#contact" class="social-btn" aria-label="Nexora Twitter / X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Solutions</h4>
+          <ul class="footer-links-list">
+            <li><a href="#solutions">Network Security</a></li>
+            <li><a href="#solutions">Cloud Security</a></li>
+            <li><a href="#solutions">Threat Intelligence</a></li>
+            <li><a href="#solutions">Vulnerability Assessment</a></li>
+            <li><a href="#solutions">Application Security</a></li>
+            <li><a href="#solutions">Security Monitoring</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Industries</h4>
+          <ul class="footer-links-list">
+            <li><a href="#industries">Financial Services</a></li>
+            <li><a href="#industries">Healthcare & Biotech</a></li>
+            <li><a href="#industries">Technology & SaaS</a></li>
+            <li><a href="#industries">E-Commerce</a></li>
+            <li><a href="#industries">Public Sector</a></li>
+            <li><a href="#industries">Manufacturing & OT</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Company & Legal</h4>
+          <ul class="footer-links-list">
+            <li><a href="#why-nexora">Why Nexora Cyber</a></li>
+            <li><a href="#case-studies">Portfolio Case Studies</a></li>
+            <li><a href="#contact">Emergency Hotline</a></li>
+            <li><a href="#contact">Security Advisory Feed</a></li>
+            <li><a href="#contact">Responsible Disclosure</a></li>
+            <li><a href="#contact">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="currentYear">2026</span> Nexora Cyber Technologies Inc. All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="#contact">Privacy Policy</a>
+          <a href="#contact">Terms of Service</a>
+          <a href="#contact">Security Architecture</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       15. INTERACTIVE MODALS
+       ======================================================================== -->
+  <!-- Consultation Modal -->
+  <div class="modal-backdrop" id="consultationModal" role="dialog" aria-modal="true" aria-labelledby="consultModalTitle">
+    <div class="modal-window">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="section-tag">Direct Architect Briefing</div>
+      <h3 class="modal-title" id="consultModalTitle">Book a Security Consultation</h3>
+      <p class="modal-desc">
+        Schedule a confidential 30-minute technical evaluation with a Nexora Cyber Principal Security Architect to assess your attack surface and defense posture.
+      </p>
+
+      <form id="modalConsultForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" name="name" class="form-input" placeholder="e.g. Jordan Vance" required>
+            <span class="form-error-msg">Please enter your full name.</span>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Corporate Email *</label>
+            <input type="email" name="email" class="form-input" placeholder="jordan@enterprise.com" required>
+            <span class="form-error-msg">Please enter a valid work email.</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Primary Defense Focus *</label>
+          <select name="service" class="form-select" required>
+            <option value="">Choose focus area...</option>
+            <option value="cloud">Multi-Cloud / Kubernetes Hardening</option>
+            <option value="ddos">High-Volume DDoS & Edge Scrubbing</option>
+            <option value="redteam">Red-Teaming & Vulnerability Audit</option>
+            <option value="soc">24/7 Managed SOC / SIEM Integration</option>
+          </select>
+          <span class="form-error-msg">Please choose a defense focus.</span>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Brief Architecture Scope *</label>
+          <textarea name="message" class="form-textarea" placeholder="Current infrastructure scale, cloud providers, or key objectives..." required></textarea>
+          <span class="form-error-msg">Please provide brief context (min 5 characters).</span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">
+          Confirm Consultation Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Case Study Details Modal -->
+  <div class="modal-backdrop" id="caseStudyModal" role="dialog" aria-modal="true" aria-labelledby="caseModalTitle">
+    <div class="modal-window">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="section-tag" id="caseModalCategory">Financial Services</div>
+      <h3 class="modal-title" id="caseModalTitle">Enterprise Network Defense</h3>
+      
+      <div style="margin-bottom: 20px;">
+        <h4 style="font-size: 0.95rem; color: var(--cyan); margin-bottom: 6px;">The Challenge:</h4>
+        <p class="modal-desc" id="caseModalChallenge" style="margin-bottom: 16px;"></p>
+
+        <h4 style="font-size: 0.95rem; color: var(--cyan); margin-bottom: 6px;">The Nexora Solution:</h4>
+        <p class="modal-desc" id="caseModalSolution" style="margin-bottom: 16px;"></p>
+
+        <h4 style="font-size: 0.95rem; color: var(--cyan); margin-bottom: 8px;">Key Verifiable Outcomes:</h4>
+        <ul id="caseModalResults" class="service-features-list"></ul>
+      </div>
+
+      <button class="btn btn-primary trigger-consultation" style="width: 100%;">
+        Discuss Similar Deployment for Your Team
+      </button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="cyber-canvas.js"></script>
+  <script src="soc-simulator.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
